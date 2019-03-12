@@ -1,4 +1,4 @@
-# kinema-charts
+# Todolist
 
 ## Project setup
 ```
