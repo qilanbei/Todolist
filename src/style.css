@@ -1,0 +1,122 @@
+/*reset style*/
+html, body {
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    color: #323232;
+    font-size: 14px;
+}
+input, button {
+    border: none;
+    background: none;
+    outline: none;
+    resize: none;
+}
+input[type="search"] {
+    -webkit-appearance: none;
+}
+
+input::-webkit-search-cancel-button {
+    display: none;
+}
+input:focus::-webkit-input-placeholder {
+    color: #ddd;
+}
+
+ul ,li {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: 0;
+    list-style: none;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/*style start*/
+.container {
+    max-width: 500px;
+}
+.todo-list {
+    margin: 0 auto;
+    text-align: center;
+}
+.title {
+    color: #000;
+    font-size: 20px;
+    font-family: "American Typewriter";
+}
+.input {
+    width: 260px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 4px 0 0 4px;
+    border: 1px solid #249be7;
+    font-size: 14px;
+    padding: 0 15px;
+}
+.todo-btn {
+    border-radius: 0 4px 4px 0;
+    padding: 0 15px;
+    height: 37px;
+    line-height: 37px;
+    background: #249be7;
+    color: #fff;
+    font-size: 16px;
+}
+.todo-btn:focus, .todo-btn:hover{
+    background: rgba(36, 155, 231, 0.8) !important;
+}
+
+.todo-ul {
+    margin-top: 20px;
+}
+
+.todo-li {
+    width: 320px;
+    padding: 20px 15px;
+    color: #fff;
+    border-radius: 6px;
+    margin: 15px auto;
+    font-size: 16px;
+}
+
+.line {
+    display: inline-block;
+    width: 350px;
+    border-bottom: 1px dashed #000;
+}
+
+
+/*input radio start*/
+.input-radio {
+    float: right;
+    display: inline-block;
+    margin: 0 15px 0 10px;
+}
+
+.radio {
+    transform: scale(1.5);
+    visibility: hidden;
+}
+
+.radio:after {
+    content: " ";
+    background-color: #fff;
+    display: inline-block;
+    color: #ff6943;
+    width: 15px;
+    height: 15px;
+    visibility: visible;
+    border: 1px solid #eee;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: -5px;
+}
+
+.radio:checked:after {
+    content: "\2714";
+    padding: -5px;
+    font-weight: bold;
+}
