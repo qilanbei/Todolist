@@ -120,3 +120,15 @@ ul ,li {
     padding: -5px;
     font-weight: bold;
 }
+
+.nav-li {
+    margin: 30px;
+}
+.nav-li a {
+    font-size: 26px;
+    color: rgba(36, 155, 231, 0.6);
+    text-decoration: none;
+}
+.nav-li a:hover {
+    color: rgba(36, 155, 231, 1);
+}
