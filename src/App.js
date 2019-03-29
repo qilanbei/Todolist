@@ -8,8 +8,8 @@ class App extends Component {
     // jsx 语法
     return (
       <div className="App">
-         <h1>TODOLIST MENU</h1>
-          <p>我就是试试这个Router!!!!</p>
+         <h1>TODOLIST MENU text</h1>
+          <p>我就是试试这个Router!!!! text</p>
           <ul className='nav-ul'>
               <li className='nav-li'><Link to="/todo">TODO</Link></li>
               <li className='nav-li'><Link to="/about">ABOUT</Link></li>
